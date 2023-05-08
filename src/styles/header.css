@@ -1,0 +1,39 @@
+.header{
+    background-color: black;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+
+.header-logo{
+    display: flex;
+    margin-left:115px ;
+}
+
+.header-navigation{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    gap: 3%;
+    box-sizing: border-box;
+    justify-content: end;
+}
+.header-navigation__link{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+text-decoration: none;
+
+}

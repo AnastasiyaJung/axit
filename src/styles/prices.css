@@ -1,0 +1,121 @@
+.pricing {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 100px;
+    padding-bottom: 50px ;
+}
+
+.pricing-box {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.pricing-title {
+    font-family: 'Raleway';
+    font-size: 36px;
+    text-align: center;
+}
+
+.pricing__separator {
+    border: 1px solid #EC7979;
+    /* display: inline-block; */
+    margin: 0 auto;
+    width: 170px;
+    margin-top: 50px;
+}
+
+.prising__text {
+    font-family: 'Raleway';
+    font-size: 18px;
+    text-align: center;
+    color: #86878B;
+    margin-top: 50px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.price {
+    display: inline-block;
+    width: 370px;
+}
+
+
+.price__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    background-color: #333333;
+    color: white;
+    border: 1px solid #f5f5f5;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.price__cost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #333333;
+    color: white;
+    border: 1px solid #f5f5f5;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.price__post-scriptum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #333333;
+    color: #ffffff7e;
+    border: 1px solid #f5f5f5;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.price__options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    height: 50px;
+    border: 2px solid #f5f5f5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+
+    color: #86878B;
+}
+.price:not(:nth-child(2)){
+    padding-top: 20px;
+}
+.price:nth-child(2){
+    height: 510px;
+    box-shadow: -1px 19px 50px -15px rgba(34, 60, 80, 0.61);
+}
