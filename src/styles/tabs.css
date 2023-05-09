@@ -68,7 +68,7 @@
     text-transform: capitalize;
     padding: 15px 100px;
     color: #FFFFFF;
-    /* margin-top: 130px; */
+    margin-top: 130px;
 }
 
 .tabs__tab {
@@ -119,8 +119,7 @@
 .tabs__tab4 {
     display: inline-block;
     border-bottom: 1px solid #C6CBCD;
-    width: 500px;
-    height: Ipx;
+    width: 617px;
     height: 40px;
     vertical-align: bottom;
     line-height: 40px;

@@ -69,8 +69,72 @@
 .banner-content-right {
     width: 100%;
 }
-.banner-content-right__form{
+
+.banner-content-right__form {
     background: #FFFFFF;
-border-radius: 10px;
-width: 100%;
+    border-radius: 10px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.form-header {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    color: #333333;
+
+}
+
+.form-header__free {
+    color: #EC7979;
+}
+
+.form-field {
+    height: 50px;
+    width: 370px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #BDBDBD;
+
+}
+
+.form-button {
+    width: 100%;
+    height: 60px;
+    background: #EC7979;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+
 }

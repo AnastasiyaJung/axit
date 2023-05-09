@@ -15,7 +15,14 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/banner.css">
+    <link rel="stylesheet" href="./styles/contact-us.css">
     <title>AXIT</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -47,7 +54,12 @@
             </div>
             <div class="banner-content-right">
                 <form class="banner-content-right__form" action="">
-
+                    <div class="form-header">Try Your <span class="form-header__free">&nbsp;FREE&nbsp;</span> Trial
+                        Today</div>
+                    <input class="form-field" placeholder="Name" type="text" />
+                    <input class="form-field" placeholder="Email" type="email" />
+                    <input class="form-field" placeholder="Password" type="password" />
+                    <button class="form-button" type="submit">Get Started</button>
                 </form>
             </div>
         </div>
@@ -251,6 +263,28 @@
             <button class="stylish-content__button" type="button">Download</button>
         </div>
     </section>
+    <section class="contact-us">
+        <div class="contact-us-container">
+            <div class="contact-us-content">
+                <div class="contact-us-content__title">contact us</div>
+                <div class="contact-us-content__separator"></div>
+                <div class="contact-us-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+
+            <form class="contact-us-form" action="">
+                <div class="contact-us-form__inputs">
+                    <div class="contact-us-form__left">
+                        <input class="form-field contact-us-form__field " placeholder="Name" type="text">
+                        <input class="form-field contact-us-form__field" placeholder="Email" type="email">
+                        <input class="form-field contact-us-form__field" placeholder="Password" type="password">
+                    </div>
+                    <textarea class="contact-us-form__right" placeholder="Message"></textarea>
+                </div>
+                <button class="contact-us-form__button" type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
     <section class="footer">
         <nav class="footer-navigation">
             <a href="" class="footer-navigation__link"><img src="./imgs/social-media/facebook.svg" alt=""></a>
